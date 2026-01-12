@@ -28,7 +28,7 @@ function sortear() {
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados} </label>`
     alterarStatusBotao();
-}sd
+}
 
 function numerosSorteados(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -53,4 +53,5 @@ function reiniciar() {
     document.getElementById('resultado').innerHTML = '<label class="texto__paragrafo">Números sorteados:  nenhum até agora</label>'
     alterarStatusBotao();
 }
+
 
